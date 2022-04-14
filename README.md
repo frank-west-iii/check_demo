@@ -3,7 +3,7 @@
 This is a simple app demonstrating the duplication of check constraints with
 the existence of multiple schemas.
 
-
+1. `docker compose up`
 1. `bin/rails db:create db:schema:load`
 1. Load new schema via `psql -h localhost -U postgres -d check_demo_development -p 8001 -f dump.sql`
 1. `bin/rails db:schema:dump`
